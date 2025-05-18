@@ -20,6 +20,13 @@ Interactive Color Palette Generator website.
 
 ---
 
+## 🚀 Live Demo
+
+Check out the color palette generator in action:  
+🔗 [View Live on GitHub Pages](https://rudee-Sb.github.io/Vibranto/)
+
+---
+
 ## 🛠️ Technologies Used
 
 - **HTML5**  
