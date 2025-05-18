@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibranto</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav_left_items">
+                <a href="#" class="logo">Vibranto</a>
+            </div>
+
+            <div class="nav_mid_items">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="https://github.com/rudee-Sb">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_right_items">
+                <button id="theme_toggle">
+                    <i class="fa-solid fa-moon" id="theme_icon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="colour_cards">
+        <div class="cards_container">
+            <div class="cards" draggable="true" data-locked="false" style="background-color: #66cdaa;">
+                <i class="fa-solid fa-lock-open"></i>
+                <p class="hex_code">#66cdaa
+                    <span class="tooltip">Copied!</span>
+                </p>
+                <h3 class="color_name">Aquamarine</h3>
+            </div>
+            <div class="cards" draggable="true" data-locked="false" style="background-color: #ee82ee;">
+                <i class="fa-solid fa-lock-open"></i>
+                <p class="hex_code">#ee82ee
+                    <span class="tooltip">Copied!</span>
+                </p>
+                <h3 class="color_name">Violet</h3>
+            </div>
+            <div class="cards" draggable="true" data-locked="false" style="background-color: #4682b4;">
+                <i class="fa-solid fa-lock-open"></i>
+                <p class="hex_code">#4682b4
+                    <span class="tooltip">Copied!</span>
+                </p>
+                <h3 class="color_name">Steelblue</h3>
+            </div>
+            <div class="cards" draggable="true" data-locked="false" style="background-color: #ba55d3;">
+                <i class="fa-solid fa-lock-open"></i>
+                <p class="hex_code">#ba55d3
+                    <span class="tooltip">Copied!</span>
+                </p>
+                <h3 class="color_name">Medium Orchid</h3>
+            </div>
+            <div class="cards" draggable="true" data-locked="false" style="background-color: #98fb98;">
+                <i class="fa-solid fa-lock-open"></i>
+                <p class="hex_code">#98fb98
+                    <span class="tooltip">Copied!</span>
+                </p>
+                <h3 class="color_name">Pale Green</h3>
+            </div>
+        </div>
+
+        <div>
+            <button id="gen_btn">Generate ↵</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_items">
+            <button onclick="save_json()" id="json_btn">Export as JSON     <i class="fa-solid fa-download"></i></button>
+        </div>
+
+        <div class="footer_right">
+            <a href="https://github.com/rudee-Sb"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-folder"></i></a>
+        </div>
+
+    </footer>
+
+</body>
+
+<script src="ntc.js"></script>
+<script src="script.js"></script>
+
+
+</html>
